@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f4e32920-8895-4ca1-9e50-1c813c2a072d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{00580499-e45c-4c25-b7bc-cfc0db3fbdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model">
+      <UniqueIdentifier>{fdcd7aef-1718-4144-8120-b847c1be458b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\View">
+      <UniqueIdentifier>{c532ca28-e413-49d6-973a-b84a7ad82461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Controller">
+      <UniqueIdentifier>{128fc185-51c7-4e07-afbd-282f49a3ca43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine">
+      <UniqueIdentifier>{52430ec1-d15f-4915-9d52-df372a4d378d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\DirectX">
+      <UniqueIdentifier>{f2e8193c-6465-4701-85e3-37dfee84eb88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\Graphics">
+      <UniqueIdentifier>{f4f24a3b-e416-4560-a9b5-f03e853fd1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\Graphics\Drawable">
+      <UniqueIdentifier>{c67d6d3a-0d79-49b9-b702-f0b89634448b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\Input">
+      <UniqueIdentifier>{73a789ed-53fd-41f2-8cdd-d1f75273be1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\Timer">
+      <UniqueIdentifier>{7e7f81be-6fd7-4d10-951a-7ab6927fb1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\Text">
+      <UniqueIdentifier>{d9169168-fe90-4ed0-add1-9c2a7a658ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\Sound">
+      <UniqueIdentifier>{c0f2b720-0124-42a6-b1ab-6d5c7628300f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\Equipment">
+      <UniqueIdentifier>{b271a6bd-c81e-4467-9511-3b2acd4d05af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\Entity">
+      <UniqueIdentifier>{42eb5b98-b7d9-4e03-a3cb-ec872e30a3c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DX.cpp">
+      <Filter>Game\Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>Game\Engine\Graphics\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Game\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Game\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Game\Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Game\Engine\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Game\Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\Model\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Game\Model\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Game\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DX.h">
+      <Filter>Game\Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Game\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Game\Engine\Graphics\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Game\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Game\Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Game\Engine\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Game\Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders.h">
+      <Filter>Game\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Game\Model\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Game\Model\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>Game\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterEquip.h">
+      <Filter>Game\Model\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Gem.h">
+      <Filter>Game\Model\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game\Model\Equipment</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Textures.txt">
+      <Filter>Game\Engine\Graphics</Filter>
+    </Text>
+    <Text Include="SoundEffects.txt">
+      <Filter>Game\Engine\Sound</Filter>
+    </Text>
+    <Text Include="BGM.txt">
+      <Filter>Game\Engine\Sound</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
