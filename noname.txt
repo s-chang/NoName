@@ -1,0 +1,66 @@
+Items
+
+3 potions - salve, potent salve, recovery
+3 mp potions - tonic, potent tonic, renewal
+status ailment pots - antidote(poison), eye drops(blind), hourglass(slow), ointment(stone), balm(burn), blanket(frozen), lotion(paralyze), whetstone(weakened), patch(vulnerable), pill(befuddled(magic down))
+smoke bomb - exit dungeon
+revive
+
+Weapon types:  Sword(slash), Axe(slash), Mace(blunt), Spear(pierce), staff(blunt), fists(blunt), claws(slash/pierce), bow(pierce), crossbow(pierce), knife(slash), wand(blunt), 
+grimoire(blunt), katana(slash)
+
+Elements:  water->fire->wind->earth  |   light <-> dark
+
+Equip:  Weapon, Head, armor, gloves, legs, feet, acc x2
+
+
+
+Classes
+Warrior:  Sword/Axe/Mace/spear
+warrior -> Knight -> Paladin(light)
+Warrior -> Knight -> Dark Knight(dark)
+warrior -> Marauder -> Templar(light)
+warrior -> Marauder -> Berserker(dark)
+
+Spearman:  spear/sword/axe/staff
+spearman -> lancer -> Spear Saint(light)
+spearman -> lancer -> Dragoon(dark)
+spearman -> Pikeman -> Valkyrie(light)
+spearman -> Pikeman -> Phalanx(dark)
+
+brawler:  fists/claws
+brawler -> fighter -> monk(light)
+brawler -> fighter -> shadowfist(dark)
+brawler -> pugilist -> master(light)
+brawler -> pugilist -> Noshadowfist(dark)
+
+archer: bow/crossbow/knives
+archer -> sharpshooter -> Hunter(light)
+archer -> sharpshooter -> Sniper (darker)
+archer -> bowman -> Ranger(light)
+archer -> bowman -> Beastmaster(dark)
+
+healer:  mace/staff/wand
+healer -> cleric -> priest(light)
+healer -> cleric -> dark priest(dark)
+healer -> saint	-> savant(light)
+healer -> saint -> prophet(dark)
+
+caster: wand/staff/grimoire
+caster -> mage -> wizard(light)
+caster -> mage -> sorcerer(dark)
+caster -> conjurer -> summoner(light)
+caster -> conjurer -> necromancer(dark)
+
+thief:  knives/fists/claws/crossbow
+thief -> ninja -> Shinobi(light)
+thief -> ninja -> Shadow(dark)
+thief -> rogue ->  Blackguard(light)
+thief -> rogue -> Assassin(dark)
+
+Bushi: Katana/spear/staff/bow
+Bushi-> Samurai -> Shogun(light)
+Bushi -> Samurai -> Warlord(dark)
+Bushi -> Ronin -> Yojimbo(light)
+Bushi -> Ronin -> Battousai(dark)
+

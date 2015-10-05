@@ -13,6 +13,7 @@ Entity::Entity(std::string name, Drawable info, Stats stats)
 	this->name = name;
 	this->info.init(info.getTranslate(), info.getScale(), info.getRotate(), info.getColor, info.getRect(), info.getIsSpriteSheet(), info.getDraw());
 	this->stats.setAll(stats);
+	status = 0;
 }
 
 unsigned int Entity::getcHP()
@@ -64,4 +65,29 @@ void Entity::addXP(int XP)
 		stats.cXP = 0;
 		stats.lXP = (int)(stats.lXP * 1.2);
 	}
+}
+
+void Entity::setStatus(unsigned int StatusCode)
+{
+	status ^= StatusCode;
+}
+
+unsigned int Entity::getStatusCode()
+{
+	return status;
+}
+
+void Entity::clearStatus()
+{
+	status = CLEAR;
+}
+
+void Entity::setAlive(bool arg)
+{
+	alive = arg;
+}
+
+bool Entity::getAlive()
+{
+	return alive;
 }

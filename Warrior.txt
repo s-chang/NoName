@@ -1,0 +1,86 @@
+SKILLS:
+
+Warrior:
+
+Slash(Active) - Frontal AoE Cone
+Endure(Active) - Ignore Hit Stun
+Whirl(Active) - PBAoE attack
+Taunt(Active) - PBAoE draw enemies
+WarCry(Active) - PBAoE attack buff
+HP Recovery(Passive) - Recover HP at set invervals
+WeaponBreak(Passive) - Small chance to inflict weaken
+HeadBash(Passive) - Small chance to inflict Befuddled
+Vigor(Passive) - Increase HP
+Defender(Passive) - Increase Defense
+
+Knight:
+Goad(Active) - PBAoE draw enemies
+Shield(Active) - Self Defense Buff
+Reflex(Active) - Gain a chance to counterattack
+Heal(Active) - PBAoE heal allies
+SwordStream - Frontal AoE Box
+Deflect(Passive) - Occasionally ignore a physical attack
+HiltBash(Passive) - Small chance to inflict Paralyze
+Resistance(Passive) - Gain resistance to status effects
+DefensiveStance(Passive) - Reduce damage taken
+Keen Vision(Passive) - Increase Accuracy
+
+Marauder:
+Fell Strike(Active) - Frontal AoE Box, small chance to inflict vulnerable
+Assail(Active) - PBAoE attack, chance to draw enemies
+Contest(Active) - Next Attack after being hit does double damage
+DrainStrike(Active) - Next Attack absorbs HP
+Abandon(Active) - Increase Attack, Decrease Defense
+OffensiveStance(Passive) - Increase Attack
+Power Strike(Passive) - Small Chance to knock back enemy, knocked back enemy takes extra damage
+Tradeoff(Passive) - Increase Attack, lower Defense
+BloodThirst(Passive) - Occasionally absorb HP
+BluntStrike(Passive) - small chance to inflict Slow
+
+Paladin:
+Light Chain(Active): PBAoE Light Damage draw enemies(Chained enemies further than x distance are pulled in)
+Solar Flare(Active):  PBAoE Blind
+Holy Cross(Active):  Frontal AoE Box Light attack
+Grand Cross(Active):  PBAoE Light attack
+Maiden's Blessing(Active):  PBAoE clear one condition
+Awareness(Passive):  Occasionally ignore any attack
+Holy Shield(Passive):  Increase elemental resistance
+Belief(Passive):  Increase Mind
+MP Regeneration(Passive):  Recover MP at set intervals
+Blinding Strike(passive):  small chance to inflict Blind
+
+Dark Knight:
+Dark Chain(Active):  PBAoE Dark Damage Draw Enemies(Chained enemies further than x distance are pulled in)
+Dark Flare(Active):  PBAoE Dark Damage + Burn
+Life Surge(Active):  Covert % of HP to inflict Frontal AoE Damage Box
+Dark Ritual(Active):  PBAoE Dark Damage + HP Absorb
+Abandon(Active):  Increase Attack, Decrease Defense
+MP Absorption(Passive):  Occasionally Absorb MP 
+Tradeoff(Passive):  Increase Attack, lower Defense
+Dark Hand(Passive): Pull a distanced enemy at set intervals
+Epiphany(Passive):  Increase Int
+Corrupting Strike(Passive):  small chance to inflict Poison
+
+Templar:
+Blinding Swipe(Active):  Frontal AoE Cone attack - small chance to inflict blind
+Cleave(Active):  Frontal AoE Attack Cone, chance to inflict double damage
+Light Burst(Active):  PBAoE Light Attack
+Encourage(Active):  PBAoE Damage % up
+Riposte(Active):  Ignore next physical attack and counterattack
+Invigorate(Passive):  Increase Vitality
+MoraleBoost(Passive):  Characters standing near Templar recover HP at set intervals
+QuickHealer(Passive):  Recover HP at set intervals, HP recovery is more effective
+DefensiveStance(Passive):  Reduce Damage taken
+Holy Shield(Passive):  Increase elemental resistance
+
+Berserker:
+Reckless Stance(Active):  Convert all Defense to Attack. Use again to cancel
+Reckless Swing(Active):  PBAoE Dark Attack, inflict slow on self, Knock back enemies
+Howl(Active):  PBAoE inflict Paralyze/Weaken on Enemies
+BloodBath(Active):  Normal Attacks absorb HP, drains MP while active
+Guillotine(Active):  Pull nearest enemy, next strike has a small chance to inflict Death
+Sharpen(Passive):  Increase Damage %
+MP Absorption(Passive):  Occasionally Absorb MP
+Power Strike(Passive):  Chance to inflict Double Damage
+Final Stride(Passive):  As HP decreases, Damage increases
+Heavy Strikes(Passive):  small chance to inflict vulnerable

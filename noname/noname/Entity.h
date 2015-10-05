@@ -5,13 +5,15 @@
 #include "Equipment.h"
 
 
+
 class Entity 
 {
 private:
 	std::string name;
 	Drawable info;
 	Stats stats;
-	bool alive;
+	bool alive;	
+	unsigned int status; 
 
 public:
 	Entity();
@@ -29,5 +31,10 @@ public:
 
 	void addXP(int XP);
 
+	void setAlive(bool arg);
+	bool getAlive();
 
+	void setStatus(unsigned int StatusCode);
+	unsigned int getStatusCode();
+	void clearStatus();
 };

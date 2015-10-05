@@ -2,6 +2,7 @@
 #include <string>
 #include "Stats.h"
 #include "Entity.h"
+#include "Globals.h"
 
 enum USEABLES
 {
@@ -17,6 +18,10 @@ enum USEABLES
 	OINTMENT,
 	BALM,
 	BLANKET,
+	LOTION,
+	WHETSTONE,
+	PATCH,
+	PILL,
 	SMOKE_BOMB,
 	REVIVE
 
@@ -25,16 +30,16 @@ enum USEABLES
 class Item
 {
 private:
-	Stats stats;
+	combineStats stats;
 	std::string name;
 	std::string description;
-	unsigned short item_num;
+	unsigned int item_num;
 
 public:
 	Item();
 	~Item();
 
-	Item(Stats stats, std::string name, std::string description, unsigned short item_num);
+	Item(combineStats stats, std::string name, std::string description, unsigned int item_num);
 	
 	virtual void use(Entity * target);
 

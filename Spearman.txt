@@ -1,0 +1,55 @@
+Spearman:
+
+Stab(Active):  Frontal Aoe Box
+Focus(Active):  Increase Accuracy
+WarCry(Active):  PBAoE attack buff
+Forward Lunge(Active):  Leap towards the nearest enemy
+Back Step(Active):  Leap back 
+ArmorBreak(Passive):  Chance to inflict vulnerable
+Keen Vision(Passive):  Increase Accuracy
+Offensive Stance(Passive):  Increase Attack
+Blunt Strike(Passive) :  Small chance to inflict slow
+Vigor(Passive):  Increase HP
+
+Lancer:
+Pierce(Active):  Frontal AoE Box, small chance inflict vulnerable
+SpearToss(Active):  Frontal Strike, hits first enemy, ignore defense
+SpearWhirl(Active):  PBAoE
+Cutoff(Active):  Leap towards the furthest enemy and attack small frontal aoe box
+Breakoff(Active):  Small Frontal AoE Box, leap in the direction of the nearest Ally
+Deflect(Passive):  Chance to ignore a physical attack
+Defender(Passive):  Increase Defense
+Resistance(Passive):  Gain resistance to status effects
+Hilt Bash(Passive):  Small chance to inflict Paralyze
+Power Strike(Passive):  Small chance to knock back, target takes additional damage
+
+Pikeman:
+Double Stab(Active):  Frontal Aoe Box, attack twice
+Counter Stance(Active):  Boost Defense for 1 attack, 100% counterattack chance
+Taunt(Active):  PBAoE Draw Enemies
+Shield(Active):  Self Defense Buff
+Leg Sweep(Active):  Frontal AoE Cone, chance to inflict Paralyze
+Stalwart Stance(Passive):  Increase Defense + small chance to counterattack
+Defensive Stance(Passive):  Reduce Damage Taken
+Resistance(Passive):  Gain resistance to status effects
+Power Strike(Passive):  Small Chance to knock back enemy, knock back enemy takes extra damage
+HP Recovery(Passive):  Recover HP at set intervals
+
+Spear Saint(light):
+Field of Spears(Active):  PBAoE pushes out (Light Attack)
+Flash Step(Active): Teleport to the nearest enemy, Frontal Box AoE, causes Blind
+Assist Step(Active):  Teleport to the nearest ally, PBAoE attack, causes Blind
+Inner Circle(Active):  PBAoE pushes in(Light Attack)
+Final Strike(Active):  Frontal Box AoE, light damage, causes Death
+HP Recovery(Passive):  Recover HP at set intervals
+Sharpen(Passive):  Increases Damage %
+Keen Edge(Passive):  Increases Crit chance
+Light Foot(Passive):  Increases Movement Speed
+MP Regeneration(Passive):  Recover MP at set intervals
+
+Dragoon(Dark):
+
+
+Valkyrie(light):
+
+Phalanx(Dark):

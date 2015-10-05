@@ -46,6 +46,15 @@
     <Filter Include="Game\Model\Entity">
       <UniqueIdentifier>{42eb5b98-b7d9-4e03-a3cb-ec872e30a3c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\Model\Player">
+      <UniqueIdentifier>{5587db03-208e-4cab-bfa6-2490eb59c222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\Skills">
+      <UniqueIdentifier>{a661b691-bbd8-414f-a39a-6ba2b74f9783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\Skills\WarriorSkills">
+      <UniqueIdentifier>{ffb28328-9ad6-4864-81b7-8cba73d4a830}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -80,6 +89,9 @@
     </ClCompile>
     <ClCompile Include="Entity.cpp">
       <Filter>Game\Model\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills.cpp">
+      <Filter>Game\Model\Skills</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -119,9 +131,6 @@
     <ClInclude Include="Entity.h">
       <Filter>Game\Model\Entity</Filter>
     </ClInclude>
-    <ClInclude Include="Stats.h">
-      <Filter>Game\Model</Filter>
-    </ClInclude>
     <ClInclude Include="CharacterEquip.h">
       <Filter>Game\Model\Equipment</Filter>
     </ClInclude>
@@ -130,6 +139,36 @@
     </ClInclude>
     <ClInclude Include="Item.h">
       <Filter>Game\Model\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Game\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Model\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Job_Class.h">
+      <Filter>Game\Model\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.h">
+      <Filter>Game\Model\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorSkills.h">
+      <Filter>Game\Model\Skills\WarriorSkills</Filter>
+    </ClInclude>
+    <ClInclude Include="Slash.h">
+      <Filter>Game\Model\Skills\WarriorSkills</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorSkillGenerator.h">
+      <Filter>Game\Model\Skills\WarriorSkills</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorEndure.h">
+      <Filter>Game\Model\Skills\WarriorSkills</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game\Model\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>Game\Model\Entity</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
