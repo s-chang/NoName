@@ -6,11 +6,11 @@
 
 
 
-class Entity 
+class Entity : public Drawable
 {
 private:
 	std::string name;
-	Drawable info;
+	
 	Stats stats;
 	bool alive;	
 	unsigned int status; 
@@ -19,7 +19,7 @@ public:
 	Entity();
 	~Entity();
 
-	Entity(std::string name, Drawable info, Stats stats);
+	Entity(std::string name, Stats stats);
 
 	unsigned int getcHP();
 	unsigned int getmHP();

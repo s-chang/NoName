@@ -2,9 +2,7 @@
 
 Engine::InputController::InputController()
 {
-	//clear the queue of any data
-	while(!inputQ.empty())
-		inputQ.pop();
+	
 	//default player number
 	controlNum = 0;
 
@@ -15,12 +13,14 @@ Engine::InputController::InputController()
 
 Engine::InputController::InputController(int playerNum)
 {
-	//clear the queue of any data
-	while(!inputQ.empty())
-		inputQ.pop();
+	
 
 	//set player number
 	controlNum = playerNum - 1;
+
+	
+	for(int i = 0; i < NUM_BUTTONS; i++)
+		buttonState[i] = false;
 }
 
 Engine::InputController::~InputController()

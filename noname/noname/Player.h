@@ -1,32 +1,64 @@
 #pragma once
 
-#include "Entity.h"
-#include "Job_Class.h"
+#include "Input.h"
+#include <queue>
 
-#define MAX_NORMAL_SKILLS 8
+#define MAX_BUTTONS 14
+enum
+{
+	UP,
+	DOWN,
+	LEFT,
+	RIGHT,
+	SELECT,
+	START,
+	X,
+	Y,
+	B,
+	A,
+	R1,
+	R2,
+	L1,
+	L2
+};
 
 
-
-class Player: public Entity
+class Player
 {
 private:
+	Engine::InputController * control;
 
-	Job_Class job_class;
 
-	int player_num;				
-	int stat_points;
-	int normal_skill_points;
-	//int elemental_skill_points;
-	int first_class_skill_points;
-	int second_class_skill_points;
+	int player_num;
+	std::queue<int> inputQ;
 
-	int normal_skill_distribution[MAX_NORMAL_SKILLS];
+	bool input_buttons[MAX_BUTTONS];
+
+	bool controller;
+
+	//helper function
+	void populateQ(int button, WORD controller_code);
+	void populateQcheck(int button, WORD controller_code);
+
+	void populateQkeyboard(int button, unsigned char keycode);
+	void populateQcheckkeyboard(int button, unsigned char keycode);
 
 public:
+
 	Player();
 	~Player();
 
-	void setPlayerNum(int num);
-	int getPlayerNum();
+	void init(Engine::InputController *control, int player_num);
+	
+	void update();
+	void clearQ();
+	std::queue<int> * getQ();
+
+	int getPlayer();
+
+	void setController(bool arg);
+
+	void shutdown();
+
 
 };

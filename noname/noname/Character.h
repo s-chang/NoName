@@ -5,11 +5,24 @@
 
 #define MAX_NORMAL_SKILLS 10
 
+struct V2D
+{
+	int x, y;
+};
+
+struct Velocity2D
+{
+	float x, y;
+};
+
 class Character: public Entity
 {
 	Job_Class job_class;
 
 	int character_num;
+
+	V2D position;
+	Velocity2D velocity;
 
 	
 	int normal_skill_points;
@@ -23,10 +36,18 @@ class Character: public Entity
 	int second_class_sd[MAX_NORMAL_SKILLS];
 	int third_class_sd[MAX_NORMAL_SKILLS];
 
+
+
 public:
 
 	Character();
 	~Character();
+
+	void setPos(V2D pos);
+	V2D getPos();
+
+	void setVelocity(Velocity2D velocity);
+	Velocity2D getVel();
 
 	void setCharacterNum(int num);
 	int getCharNum();

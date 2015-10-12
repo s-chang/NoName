@@ -25,7 +25,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE prevInstance, LPTSTR lpCmdLin
 
 	myWindow.init(myhWnd, myInstance, window);
 
-	//TODO: init other stuff
+	//TODO: MOVE TO VIEW
 	Engine::DX::instance()->init(myhWnd, window);
 
 	//TODO: create game instance

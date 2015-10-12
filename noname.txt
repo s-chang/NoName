@@ -64,3 +64,8 @@ Bushi -> Samurai -> Warlord(dark)
 Bushi -> Ronin -> Yojimbo(light)
 Bushi -> Ronin -> Battousai(dark)
 
+Peirrot:  knives/bow/wands
+Peirrot -> Bard -> Minstrel(light)
+Peirrot -> Bard -> War Songster/Songtress(dark)
+Peirrot -> Dancer -> Performer(light
+Peirrot -> Dancer -> Blade Dancer(Dark)

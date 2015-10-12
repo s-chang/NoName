@@ -25,9 +25,6 @@
     <Filter Include="Game\Engine\Graphics">
       <UniqueIdentifier>{f4f24a3b-e416-4560-a9b5-f03e853fd1a1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Engine\Graphics\Drawable">
-      <UniqueIdentifier>{c67d6d3a-0d79-49b9-b702-f0b89634448b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Game\Engine\Input">
       <UniqueIdentifier>{73a789ed-53fd-41f2-8cdd-d1f75273be1f}</UniqueIdentifier>
     </Filter>
@@ -46,14 +43,29 @@
     <Filter Include="Game\Model\Entity">
       <UniqueIdentifier>{42eb5b98-b7d9-4e03-a3cb-ec872e30a3c4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Model\Player">
+    <Filter Include="Game\Controller\Player">
+      <UniqueIdentifier>{d6b338ec-111e-402c-a1f1-fc8924a99320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\Entity\Character">
       <UniqueIdentifier>{5587db03-208e-4cab-bfa6-2490eb59c222}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Model\Skills">
+    <Filter Include="Game\Model\Entity\Character\Skills">
       <UniqueIdentifier>{a661b691-bbd8-414f-a39a-6ba2b74f9783}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Model\Skills\WarriorSkills">
+    <Filter Include="Game\Model\Entity\Character\Skills\WarriorSkills">
       <UniqueIdentifier>{ffb28328-9ad6-4864-81b7-8cba73d4a830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\Entity\Drawable">
+      <UniqueIdentifier>{c67d6d3a-0d79-49b9-b702-f0b89634448b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\World">
+      <UniqueIdentifier>{3e4cc070-4417-4f20-9e67-d3e5dc8758cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\World\Layer">
+      <UniqueIdentifier>{4261ea2f-d9c0-4d4c-8fbe-8de102c4d797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Model\World\Maps">
+      <UniqueIdentifier>{d106e557-c147-4537-840c-3758c7db70b5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -67,7 +79,7 @@
       <Filter>Game\Engine\DirectX</Filter>
     </ClCompile>
     <ClCompile Include="Drawable.cpp">
-      <Filter>Game\Engine\Graphics\Drawable</Filter>
+      <Filter>Game\Model\Entity\Drawable</Filter>
     </ClCompile>
     <ClCompile Include="Graphics.cpp">
       <Filter>Game\Engine\Graphics</Filter>
@@ -91,7 +103,16 @@
       <Filter>Game\Model\Entity</Filter>
     </ClCompile>
     <ClCompile Include="Skills.cpp">
-      <Filter>Game\Model\Skills</Filter>
+      <Filter>Game\Model\Entity\Character\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Controller\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Game\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Game\View</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +129,7 @@
       <Filter>Game\Engine\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="Drawable.h">
-      <Filter>Game\Engine\Graphics\Drawable</Filter>
+      <Filter>Game\Model\Entity\Drawable</Filter>
     </ClInclude>
     <ClInclude Include="Input.h">
       <Filter>Game\Engine\Input</Filter>
@@ -143,32 +164,50 @@
     <ClInclude Include="Globals.h">
       <Filter>Game\Model</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Game\Model\Player</Filter>
-    </ClInclude>
     <ClInclude Include="Job_Class.h">
-      <Filter>Game\Model\Player</Filter>
+      <Filter>Game\Model\Entity\Character</Filter>
     </ClInclude>
     <ClInclude Include="Skills.h">
-      <Filter>Game\Model\Skills</Filter>
+      <Filter>Game\Model\Entity\Character\Skills</Filter>
     </ClInclude>
     <ClInclude Include="WarriorSkills.h">
-      <Filter>Game\Model\Skills\WarriorSkills</Filter>
+      <Filter>Game\Model\Entity\Character\Skills\WarriorSkills</Filter>
     </ClInclude>
     <ClInclude Include="Slash.h">
-      <Filter>Game\Model\Skills\WarriorSkills</Filter>
+      <Filter>Game\Model\Entity\Character\Skills\WarriorSkills</Filter>
     </ClInclude>
     <ClInclude Include="WarriorSkillGenerator.h">
-      <Filter>Game\Model\Skills\WarriorSkills</Filter>
+      <Filter>Game\Model\Entity\Character\Skills\WarriorSkills</Filter>
     </ClInclude>
     <ClInclude Include="WarriorEndure.h">
-      <Filter>Game\Model\Skills\WarriorSkills</Filter>
+      <Filter>Game\Model\Entity\Character\Skills\WarriorSkills</Filter>
     </ClInclude>
     <ClInclude Include="Character.h">
-      <Filter>Game\Model\Player</Filter>
+      <Filter>Game\Model\Entity\Character</Filter>
     </ClInclude>
     <ClInclude Include="Stats.h">
       <Filter>Game\Model\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Controller\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Game\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Game\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Game\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Game\Model\World\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps.h">
+      <Filter>Game\Model\World\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Game\Model\World</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

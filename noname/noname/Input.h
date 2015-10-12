@@ -47,8 +47,6 @@ namespace Engine
 	{
 	private:
 		
-		std::queue<int> inputQ;
-
 		XINPUT_STATE controlState;
 		int controlNum;
 
